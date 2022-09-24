@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'roboto';
+    background-image: url("/images/backcover.svg");
+    background-repeat: no-repeat;
+    height: 96vh;
+    background-position: right;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 40px;
+}
+
+nav:first-child{
+    cursor: pointer;
+}
+
+.nav-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    font-size: 22px;
+    color: #424A89;
+}
+
+.signin-btn {
+    font-size: 15px;
+    padding: 2px 6px;
+    background: linear-gradient(90deg, rgba(150, 92, 242, 1) 0%, rgba(255, 138, 220, 1) 100%);
+    border: none;
+    border-radius: 30px;
+    color: #ffff;
+}
+
+.intro-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 50px;
+    margin: 40px;
+}
+
+.left-section>h1 {
+    font-weight: 800;
+    font-size: 80px;
+    color: #3E4794;
+}
+
+.left-section>h4 {
+    font-size: 20px;
+    margin-right: 227px;
+    color: #80839F;
+}
+
+.left-section>button {
+    font-size: 30px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px;
+    color: #ffff;
+    background: linear-gradient(90deg, rgba(150, 92, 242, 1) 0%, rgba(255, 138, 220, 1) 100%);
+}
+
+.imgs-div :last-child {
+    height: 80vh;
+}
+
+.vector-img {
+    position: absolute;
+    bottom: 0%;
+    rotate: 360deg;
+    left: 40%;
+}
+
+.vector-dot {
+    position: absolute;
+    left: 43%;
+    bottom: 15%;
+}
+
+.nav-item,.signin-btn,.learn-more-btn{
+    cursor: pointer;
+}
