@@ -96,3 +96,17 @@ nav:first-child{
 .nav-item,.signin-btn,.learn-more-btn{
     cursor: pointer;
 }
+
+
+@media(max-width:1024px){
+    .nav-items{
+        display: none;
+    }
+
+    .imgs-div{
+        display: none;
+    }
+    .left-section{
+        width: 100%;
+    }
+}
